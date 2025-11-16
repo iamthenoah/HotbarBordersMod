@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.than00ber.hotbarborders;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -7,12 +7,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@Mod(ExampleMod.MODID)
-public final class ExampleMod {
+@Mod(HotbarBordersMod.MODID)
+public final class HotbarBordersMod {
 
-	public static final String MODID = "examplemod";
+	public static final String MODID = "hotbarborders";
 
-	public ExampleMod() {
+	public HotbarBordersMod() {
 		Configuration.init();
 	}
 
