@@ -18,7 +18,7 @@ public abstract class InventoryMixin implements Container, Nameable {
     @Inject(method = "swapPaint", at = @At("HEAD"), cancellable = true)
     public void swapPaint(double direction, CallbackInfo callback) {
         if (Configuration.Client.getInstance().enableHotbarBorders()) {
-            if ((direction < 0 && selected == 8) || (direction > 0 && selected == 0)) {
+            if ((direction > 0 && selected == 0) || (direction < 0 && selected == 8)) {
                 callback.cancel();
             }
         }
