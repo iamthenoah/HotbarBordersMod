@@ -1,4 +1,5 @@
 {
+  "required": true,
   "package": "com.than00ber.hotbarborders.mixin",
   "mixins": [
     "InventoryMixin"
