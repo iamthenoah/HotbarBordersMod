@@ -41,7 +41,7 @@ dependencies {
 }
 
 mixin {
-    config 'hotbarborders.mixin.json'
+    config "${modId}.mixin.json"
 }
 
 tasks.named('processResources', ProcessResources).configure {
